@@ -1,0 +1,123 @@
+
+.service{
+    height: 500px;
+}
+.service-title{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+    color: #eec976;
+}
+.our-service{
+    display: flex;
+    flex-direction: column;   
+}
+.ourservicelist{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.service-icon{
+    display: flex;
+    color:#998899;
+    font-size: 30px;
+    position: relative;
+
+}
+.delivery{
+    position: absolute;
+    left: 10%;
+    bottom: -120px;
+}
+.replacement{
+    position: absolute;
+    left: 40%;
+    bottom: -120px;
+}
+.support{
+    position: absolute;
+    right: 20%; 
+    bottom: -120px;
+}
+.fa-truck{
+    position: absolute;
+    left: 7%;
+    bottom: -116px;
+}
+.fa-rotate-left{
+    position: absolute;
+    left: 38%;
+    bottom: -117px;
+    transform: rotate(45deg);
+}
+.fa-circle-question{
+    position: absolute;
+    right: 35%;
+    bottom: -117px;
+}
+.new:hover,.service-icon .fa-solid:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+@media (max-width:1300px) {
+    .service{
+        height: 600px;
+    }
+}
+@media (max-width:1000px) {
+    .service{
+        height: 1000px;
+    }
+    .service-icon1{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 10%;
+        top: 160px;  
+    }
+    .service-icon2{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 10%;
+        top: 230px;  
+    }
+    .service-icon3{
+        position: absolute;
+        left: 187;
+        top: 300px;  
+    }
+    .fa-circle-question{
+        position: absolute;
+        right: 110px;
+        bottom: -117px;
+    }
+}
+@media only screen and (max-width:900px){
+    .service{
+        height: 805px;
+    }
+    .service-icon1{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 10%;
+        top: 50px;  
+    }
+    .service-icon2{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: 10%;
+        top: 100px;  
+    }
+    .service-icon3{
+        position: absolute;
+        left: 187;
+        top: 180px;  
+    }
+}

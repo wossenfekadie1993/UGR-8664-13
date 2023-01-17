@@ -1,0 +1,116 @@
+
+.title{
+    margin-left:300px;;
+    color: #89346d;
+    font-family: cursive;
+    padding: 40px;
+}
+.comments{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,300px);
+    grid-column-gap: 100px;
+    grid-row-gap:20px;
+    height:500px;
+    justify-content:center;    
+}
+.comment{
+   max-height:350px;
+   background-color: cadetblue;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+    
+}
+.commentator{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+.commentator1{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.commentator2{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.commentator3{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.commentp{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    color: #ffffff;
+}
+.commenth1{
+    position: absolute;
+    left:35%;
+    top: 40px;
+    color: #89346d;
+}
+.fa-star, .fa-star-half-stroke{
+    color: darkgoldenrod;
+}
+
+.s1{
+    position:absolute;
+    top: 50px;
+    left: 35%;   
+}
+.s2{
+    position:absolute;
+    top: 50px;
+    left: 42%;
+}
+.s3{
+    position:absolute;
+    top: 50px;
+    left: 49%;
+}
+.s4{
+    position:absolute;
+    top: 50px;
+    left: 56%;
+}
+.s5{
+    position:absolute;
+    top: 50px;
+    left: 63%;
+}
+
+@media only screen and (max-width:1200px){
+     .review{
+        height: fit-content;
+     }
+    .title{
+        margin-left: 400px;
+     }
+        .comments{
+            display: grid;
+        }
+    }
+@media only screen and (max-width:1100px){
+    .review{
+        height: 82em;
+    }
+    .title{
+    
+        margin-left: 100px;
+     }
+    .comments{
+        display: grid;
+        height: 80em;
+        grid-template-rows:360px;
+        grid-template-columns: 300px;
+        grid-template-columns: 300px;
+        grid-gap: 40px;
+    } 
+    .comment3{
+       bottom: 60px;
+     }  
+}
