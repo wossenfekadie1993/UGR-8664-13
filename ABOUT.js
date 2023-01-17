@@ -1,12 +1,12 @@
 /* for aboutpage*/
 function changePumaBg(){
     const puma=[
-        'url("../images/puma2.png")',
-        'url("../images/puma3.png")',
-        'url("../images/puma4.png")',
-        'url("../images/puma5.png")',
-        'url("../images/puma2.png")',
-        'url("../images/PUMA1.png")'
+        'url("puma2.png")',
+        'url("puma3.png")',
+        'url("puma4.png")',
+        'url("puma5.png")',
+        'url("puma2.png")',
+        'url("PUMA1.png")'
     ]
     const container1=document.querySelector(".container1")
     const pumaBg=puma[Math.floor(Math.random()*puma.length)];
@@ -34,12 +34,12 @@ setInterval(changeNikeBg,1000)
 
 function changeJordanBg(){
     const jordan=[
-        'url("../images/jordan2.png")',
-        'url("../images/JORDAN1.png")',
-        'url("../images/jordan2.png")',
-        'url("../images/JORDAN.png")',
-        'url("../images/JORDAN1.png")',
-        'url("../images/JORDAN2.png")'
+        'url("jordan2.png")',
+        'url("JORDAN1.png")',
+        'url("jordan2.png")',
+        'url("JORDAN.png")',
+        'url("JORDAN1.png")',
+        'url("JORDAN2.png")'
     ]
     const container3=document.querySelector(".container3")
     const jordanBg=jordan[Math.floor(Math.random()*jordan.length)];
