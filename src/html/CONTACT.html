@@ -3,93 +3,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
+    <title>OUR SHOE</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/CONTACT.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <section >
-        <header class="header">
-            <div class="logopart">
-                <img src="../images/logo.png" alt="logo" class="logo">
-            </div>
-            <div class="hamburgur">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-            <div class="navigation">
-                <nav class="nav">
-                    <ul >
-                        <li><a href="HOME.html" class=" anchor" >HOME</a></li>
-                        <li><a href="PRODUCT.html"class="anchor">PRODUCT</a></li>
-                        <li><a href="SERVICE.html" class="anchor">SERVICE</a></li>
-                        <li><a href="REVIEW.html" class="anchor">REVIEW</a></li>
-                        <li><a href="OVERVIEW.html" class="anchor">OVERVIEW</a></li>
-                        <li><a href="ABOUT.html" class="anchor">ABOUT</a></li>
-                        <li><a href="CONTACT.html" class="active anchor">CONTACT</a></li>
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <div  class="navbar-brand "><img  src="../images/logo.png" alt="logo" class="img-fluid rounded-circle "></div>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="nav navbar-nav ms-auto">
+                      <li class="nav-item"><a href="HOME.html"   class="nav-link" >HOME</a></li>
+                      <li class="nav-item"><a href="PRODUCT.html" class="nav-link">PRODUCT</a></li>
+                      <li class="nav-item"><a href="SERVICE.html" class="nav-link">SERVICE</a></li>
+                      <li class="nav-item"><a href="REVIEW.html"   class="nav-link">REVIEW</a></li>
+                      <li class="nav-item"><a href="OVERVIEW.html" class="nav-link">OVERVIEW</a></li>
+                      <li class="nav-item"><a href="ABOUT.html"    class="nav-link">ABOUT</a></li>
+                      <li class="nav-item"><a href="CONTACT.html" class="nav-link">CONTACT</a></li>
                     </ul>
-                </nav>
-            </div>
+                  </div>
+                </div>
+            </nav>
         </header>
-
     </section>
-    <section class="content">
-    <aside>
-        <div class="side">
-            <h1 class="title">CONTACT US</h1>
-            <span class="sub_title">CONTACT US BY THE FOLLOWING ALTERATIVES</span><br>
-            <a href=tel:+251926198591 class="phone sidea new"><i class="fa-solid fa-phone"></i>+215926198491</a> <br>
-            <a href=mailto:yabsirayetwale@gmail.com@gmail.com class="mail sidea new"><i class="fa-solid fa-envelope"></i>yabsirayetwale@gmail.com</a><br>
-            <a href="https://facebook.com/Puma_Nike_Adidas_Shoes" class="facebook sidea new"><i class="fa-brands fa-facebook"></i>facebook</a><br>
-            <a href="https://t.me/Puma_Nike_Adidas_Shoes" class="telegram sidea new"><i class="fa-brands fa-telegram"></i>telegram</a> 
-                    
+    <section>
+        <aside class=" bg-info h-100">
+            <div class="container">
+               <div class="d-sm-flex">
+                    <div>
+                        <div>
+                            <h1 class="title">CONTACT US</h1>
+                            <span class="sub_title">CONTACT US BY THE FOLLOWING ALTERATIVES</span><br>
+                            <a href=tel:+251926198591  style="text-decoration: none;"><i class="fa-solid fa-phone p-1"></i>+215926198491</a> <br>
+                            <a href=mailto:yabsirayetwale@gmail.com@gmail.com  style="text-decoration: none;"><i class="fa-solid fa-envelope p-1"></i>yabsirayetwale@gmail.com</a><br>
+                            <a href="https://facebook.com/Puma_Nike_Adidas_Shoes"  style="text-decoration: none;"><i class="fa-brands fa-facebook p-1"></i>facebook</a><br>
+                            <a href="https://t.me/Puma_Nike_Adidas_Shoes"  style="text-decoration: none;"><i class="fa-brands fa-telegram p-1"></i>telegram</a>         
+                        </div>
+                    </div>
+                    <div class="position-absolute end-0 p-5">
+                        <main>
+                            <h1>LEAVE US A COMMENT</h1>
+                            <form class=" g-3 needs-validation"  novalidate>
+                                <div>
+                                    <input type="text" id="name" placeholder=" Write Your Name" class="form-control text-center mt-2" required>
+                                    <div class="invalid-feedback">
+                                        Please fill your name.
+                                      </div>
+                               </div>
+                               <div>
+                                    <input  type="email" id="email" placeholder="Write Your Email Address" class="form-control text-center mt-4" required>
+                                    <div class="invalid-feedback">
+                                        please fill the correct email address.
+                                      </div>
+                               </div><br>
+                               <input type="text" id="comment" placeholder="comment here" class=" text-center mt-2  w-100" style="height:80px;"><br>
+                               <input type="submit" value="submit" id="submit" class=" w-100 text-center bg-danger text-white mt-4 p-2" >
+
+                              </form>
+                        </main>
+                    </div>
+                </div>
             </div>
-        <main>
-               <h1>LEAVE US A COMMENT</h1>
-               <form action="" id="form">
-                    <div class="form-control control1">
-                        <input type="text" id="name" placeholder=" Write Your Name">
-                        <small class="small small1">error-message</small><br>
-                    </div>
-                    <div class="form-control control2">
-                        <input  type="email" id="email" placeholder="Write Your Email Address">
-                        <small class="small small2" id="error">error-message</small>
-                    </div>
-                        <br>
-                        <input type="text" id="commentS" placeholder="comment here"><br>
-                        <input type="submit" value="submit" id="submit">
-                </form>
-            </main>
         </aside>
     </section>
     <section>
         <aside>
-            <footer class="footer">
-                <div class="footer_contact">
-                    <h1>contact us</h1>
-                        <a href=tel:+251926198591>  <i class="fa-solid fa-phone"></i>+251926198491</a> <br>
-                         <a href=mailto:yabsirayetwale@gmail.com><i class="fa-solid fa-envelope"></i>yabsirayetwale@gmail.com</a>
-                        
-                </div>
-                    <div class="footer_gethelp">
+            <footer>
+                <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-sm-4 p-3 bg-dark text-white"><a href=tel:+251926198591 style="text-decoration: none;">  <i class="fa-solid fa-phone"></i>+251926198491</a> <br>
+                        <a href=mailto:yabsirayetwale@gmail.com style="text-decoration: none;"><i class="fa-solid fa-envelope" ></i>yabsirayetwale@gmail.com</a>
+                      </div>
+                      <div class="col-sm-4 p-3 bg-dark text-white d-flex flex-column">
                         <h1>get help</h1>
-                        <span class="faq">FAQ</span>
-                        <Span class="return">Returns</Span>
-                        <span class="pay">Payment option</span>
-                    </div>
-                    <div class="footer_followus">
+                        <span >FAQ</span>
+                        <Span>Returns</Span>
+                        <span>Payment option</span>
+                      </div>
+                      <div class="col-sm-4 p-3 bg-dark text-white">
                         <h1>follow us on</h1>
-                       <a href="  https://facebook.com/Puma_Nike_Adidas_Shoes"><i class="fa-brands fa-facebook"></i></a>
-                       <a href="https://t.me/Puma_Nike_Adidas_Shoes"><i class="fa-brands fa-telegram"></i></a>
-                       <a href="https://twitter.com/Puma_Nike_Adidas_Shoes"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="  https://facebook.com/Puma_Nike_Adidas_Shoes"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://t.me/Puma_Nike_Adidas_Shoes"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://twitter.com/Puma_Nike_Adidas_Shoes"><i class="fa-brands fa-twitter"></i></a>
+                      </div>
                     </div>
-                </footer>   
-       
+                  </div>
+            </footer>
         </aside>
     </section>
-    <script src="../js/CONTACT.js"></script>
-    <script src="../js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ 
+<script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+      </script> 
 </body>
 </html>
